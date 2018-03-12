@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+</head>
+
+
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class = "container">            
+            <div class="row">                                    
+                <div class="col-sm-4">                                          
+                    <h1 style="background-color: darkorange;">CrystalsCollector!</h1>               
+                </div>
+            </div>            
+
+
+            <div class="row">
+                <div class="col-sm-6", style="background-color: tan;">                    
+                    <br>             
+                        You will be given a random number at the start of the game.
+                    <br>
+                    <br>                        
+                        There are four crystals below. By clicking on a crystal you
+                        will add a specific amount of points to your total score.
+                    <br>
+                    <br>                        
+                        You win the game by matching your total score to random
+                        number, you lose the game if your total score goes above
+                        the random number.
+                    <br>
+                    <br>                        
+                        The value of each crystal is hidden from you until you 
+                        click on it.
+                    <br>
+                    <br>                        
+                        Each time when the game starts, the game will change the 
+                        values of each crystal.
+                    <br>
+                    <br>                   
+                </div>     
+            </div>
+
+            
+            <div class="row">
+                <div class="col-sm-3", style="background-color: darkseagreen;">0
+                    <p id="randomNumber"> </p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>                    
+                </div> 
+                           
+            <div class="col-sm-1", style="background-color:  dodgerblue;">
+                <br>
+                    <p id="wins">Wins:</p>
+                <br>
+                    <p id="losses">Losses:</p>
+                <br>                        
+            </div> 
+       </div>
+
+
+            <div class="row">
+                <div class="col-sm-5;">                   
+                        
+                                <div class="buttons">
+                                        <button id="button-1" class="btn btn-primary number" value="gem1"> <img src="https://image.flaticon.com/icons/svg/263/263399.svg" width="100px" height="75px"></button>
+                                        <button id="button-2" class="btn btn-primary number" value="gem2"> <img src="https://image.flaticon.com/icons/svg/764/764005.svg" width="100px" height="75px"></button>
+                                        <button id="button-3" class="btn btn-primary number" value="gem3"> <img src="https://image.flaticon.com/icons/svg/186/186300.svg" width="100px" height="75px"></button>
+                                        <button id="button-plus" class="btn btn-danger operator" value="gem4"> <img src="https://image.flaticon.com/icons/svg/148/148905.svg" width="100px" height="75px"></button>
+                                </div>                                                
+                                                  
+                         
+                </div>        
+            </div>
+
+
+            <div class="row">            
+                <div class="col-sm-3", style="background-color: forestgreen;"><p>Your total score is:</p>
+                </div>
+            </div>
+            
+
+            <div class="row">
+                <div class="col-sm-3", style="background-color: darkgreen;">0                                                                        
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>  
+            </div>
+
+
+        </div>
+    </div>                             
+              
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    
+</body>
+</html>                         
